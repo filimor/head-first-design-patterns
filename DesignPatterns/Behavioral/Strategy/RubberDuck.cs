@@ -1,4 +1,4 @@
-﻿namespace HeadFirstDesignPatterns.Behavioral.Strategy
+﻿namespace Strategy
 {
     internal class RubberDuck : Duck
     {

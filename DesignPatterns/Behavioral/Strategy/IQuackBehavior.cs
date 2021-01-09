@@ -1,4 +1,4 @@
-﻿namespace HeadFirstDesignPatterns.Behavioral.Strategy
+﻿namespace Strategy
 {
     public interface IQuackBehavior
     {
