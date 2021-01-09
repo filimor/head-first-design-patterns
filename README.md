@@ -29,7 +29,7 @@ TODO
 
 ## Installation
 
-TODO
+* [Behavioral Patterns](desctiption/BehavioralPatterns.md)
 
 ## Usage
 

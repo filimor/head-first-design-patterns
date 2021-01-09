@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace HeadFirstDesignPatterns.Behavioral.Strategy
+{
+    public class MallardDuck : Duck
+    {
+        public MallardDuck()
+        {
+            QuackBehavior = new NormalQuack();
+            FlyBehavior = new FlyWithWings();
+        }
+        public override void Display()
+        {
+            Console.WriteLine("I'm a real Mallard duck");
+        }
+    }
+}
