@@ -24,5 +24,22 @@ You should use the Strategy pattern when:
 * You need different variants of an algorithm.
 * An algorithm uses data unknown to clients.
 
-Available at:
+## Observer Pattern
+
+A subject may have any number of dependent observers and all observers are notified whenever the subject under goes a
+change in state. In response, each observer will query the subject to synchronize its state with the state of the
+subject. This kind of interaction is also known as publish-subscribe. The subject is the publisher of notifications and
+sends out these notifications without having to know who its observers are. Any number of observers can subscribe to
+receive notifications.
+### Potential pitfalls of implementing the Observer pattern
+
+You should be aware of a few potential pitfalls when implementing the Observer pattern:
+
+* Generally, you need to make sure that the change of state is complete and that the object has a consistent state
+before notifying observers of the change.
+* Be clear about whether the order in which Observer objects are notified is or is not predictable.
+* Do not let an Observer register itself twice with the same Observed object unless you are sure that is what it means
+to do.
+
+> Available at:
 [https://www.gofpatterns.com/behavioral/patterns/strategy-pattern.php](https://www.gofpatterns.com/behavioral/patterns/strategy-pattern.php)
