@@ -6,7 +6,7 @@ namespace Strategy
     {
         public void Fly()
         {
-            Console.WriteLine("I'm flying with a rocket!");
+            Console.WriteLine("I'm flying with a rocket");
         }
     }
 }

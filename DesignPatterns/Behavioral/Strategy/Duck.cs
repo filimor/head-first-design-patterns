@@ -17,7 +17,7 @@ namespace Strategy
             FlyBehavior.Fly();
         }
 
-        public void Swim()
+        public static void Swim()
         {
             Console.WriteLine("All ducks float, even decoys!");
         }

@@ -2,6 +2,6 @@
 {
     public interface IDisplayElement
     {
-        void Display(WeatherInfo weatherInfo);
+        void Display();
     }
 }

@@ -19,8 +19,8 @@ namespace Observer
             if (_observer != null)
             {
                 _observers.Remove(_observer);
-                
             }
+
             GC.SuppressFinalize(this);
         }
     }

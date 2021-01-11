@@ -5,21 +5,22 @@ namespace Observer
     public class CurrentConditionsDisplay : IObserver<WeatherInfo>, IDisplayElement
     {
         private IDisposable _unsubscriber;
+        private WeatherInfo _weatherInfo;
 
         public CurrentConditionsDisplay(IObservable<WeatherInfo> observable)
         {
-            observable.Subscribe(this);
+            Subscribe(observable);
         }
 
-        public void Display(WeatherInfo weatherInfo)
+        public void Display()
         {
-            Console.WriteLine($"Current conditions: {weatherInfo.Temperature} F degrees and {weatherInfo.Humidity} % humidity");
+            Console.WriteLine(
+                $"Current conditions: {_weatherInfo.Temperature} F degrees and {_weatherInfo.Humidity} % humidity");
         }
 
         public void OnCompleted()
         {
-            //TODO: Is it necessary?
-            Unsubscribe();
+            // Do nothing.
         }
 
         public void OnError(Exception error)
@@ -27,9 +28,10 @@ namespace Observer
             // Do nothing.
         }
 
-        public void OnNext(WeatherInfo value)
+        public void OnNext(WeatherInfo weatherInfo)
         {
-            Display(value);
+            _weatherInfo = weatherInfo;
+            Display();
         }
 
         public virtual void Unsubscribe()

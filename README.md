@@ -25,15 +25,31 @@ TODO
 
 ## Table of Contents
 
-TODO
-
-## Installation
-
 * [Behavioral Patterns](desctiption/BehavioralPatterns.md)
 
-## Usage
+# Princípios de projeto
 
-TODO
+1. Identifique aspectos do seu aplicativo que variam e separe-os do que
+permanece igual (encapsule o que varia).
+2. Programe para uma interface, não para uma implementação.
+3. Dê prioridade à composição em relação à herança (TEM-UM pode ser melhor do
+que É-UM).
+4. Busque projetos baixamente acoplados entre objetos que interagem.
+5. As classes devem estar abertas para extensão, msa fechadas para modificação.
+
+# Padrões de projeto
+
+* O Padrão **STRATEGY** define uma família de algoritmos, encapsula cada um
+deles e os torna intercambiáveis. A estratégia deixa o algoritmo variar
+independentemente dos clientes que o utilizam.
+
+* O padrão **OBSERVER** define uma dependência um-para-muitos entre objetos de
+modo que, quanod um objeto muda de estado, todos os seus dependentes são
+notificados e atualizados automaticamente.
+
+* O padrão **DECORATOR** anexa responsabilidades adicionais a um objeto de
+maneira dinâmica. Os decoradores fornecem uma alternativa flexível para a
+subclasse para estender a funcionalidade.
 
 ## Build With
 

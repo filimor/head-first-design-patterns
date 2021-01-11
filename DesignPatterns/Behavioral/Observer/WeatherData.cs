@@ -10,12 +10,7 @@ namespace Observer
 
         public WeatherData()
         {
-            _observers = new();
-        }
-
-        public WeatherData(WeatherInfo weatherInfo) : this()
-        {
-            _weatherInfo = weatherInfo;
+            _observers = new List<IObserver<WeatherInfo>>();
         }
 
         public IDisposable Subscribe(IObserver<WeatherInfo> observer)
@@ -27,7 +22,6 @@ namespace Observer
 
             return new Unsubscriber(_observers, observer);
         }
-
 
         public void SetMeasurements(WeatherInfo weatherInfo)
         {

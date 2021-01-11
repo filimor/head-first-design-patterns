@@ -1,4 +1,14 @@
-# Padrões Comportamentais
+# Padrões de Projeto Comportamentais
+
+Em engenharia de software, os padrões de projeto comportamentais são os que
+identificam padrões de comunicação em comum entre objetos e implementam esses
+padrões. Fazendo isso, eles aumentam a flexibilidade ao executar essa
+comunicação.
+
+Os padrões comportamentais influenciam como estados e comportamentos fluem
+por um sistema. Otimizando como os estados e comportamentos são transferidos
+e modificados, você pode simplificar, otimizar e aumentar a mantenibilidade
+da sua aplicação.
 
 ## Padrão Strategy
 
@@ -11,17 +21,36 @@ alterar suas funcionalidades.
 
 ### Benefícios
 
-* Uma alternativa à herança de classe;
+* Uma alternativa à herança de classe.
 * Define cada comportamento em sua própria classe, o que elimina declarações
-condicionais;
+condicionais.
 * Mais fácil de extender um modelo para incorporar novos comportamentos sem
 alterar o código da aplicação.
 
 ### Quando Usar
 
-* Muitas classes relacionadas diferem entre si apenas em seus comportamentos;
-* Você precisa de diferentes variações de um algoritmo;
+* Muitas classes relacionadas diferem entre si apenas em seus comportamentos.
+* Você precisa de diferentes variações de um algoritmo.
 * Um algoritmo usa dados desconhecidos pelos clientes.
 
-Disponível em:
-[https://www.gofpatterns.com/behavioral/patterns/strategy-pattern.php](https://www.gofpatterns.com/behavioral/patterns/strategy-pattern.php)
+## Padrão Observer
+
+O padrão Observer provê uma maneira de um componente transmitir mensagens para
+receptores interessados de uma maneira flexível. Ele devine uma dependência
+um-para-muitos entre os objetos, assim, quando um objeto muda de estado, todos
+os seus dependentes são notificados e atualizados automaticamente.
+
+### Benefícios
+
+* Baixo acoplamento entre sujeito e observador.
+* Suporte para comunicação difundida (broadcast).
+
+### Quando usar
+
+* Uma mudança em um objeto requer alterações em outros objetos e você não
+sabe quantos objetos precisam ser modificados. Um objeto deveria ser capaz de
+notificar outros objetos sem fazer suposições sobre a identidade desses
+objetos.
+
+> Disponível em:
+[https://www.gofpatterns.com/behavioral/index.php](https://www.gofpatterns.com/behavioral/index.php) (tradução livre)

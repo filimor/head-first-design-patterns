@@ -1,4 +1,13 @@
-# Behavioral Patterns
+# Behavioral Design Patterns
+
+In software engineering, behavioral design patterns are design patterns that
+identify common communication patterns between objects and realize these
+patterns. By doing so, these patterns increase flexibility in carrying out
+this communication.
+
+Behavioral patterns influence how state and behavior flow through a system.
+By optimizing how state and behavior are transferred and modified, you can
+simplify, optimize, and increase the maintainability of an application.
 
 ## Strategy Pattern
 
@@ -10,15 +19,13 @@ These behaviors can then be used in an application to change its functionality.
 
 ### Benefits
 
-* An alternative to subclassing;
+* An alternative to subclassing.
 * Defines each behavior in its own class, which eliminates conditional
-statements;
+statements.
 * Easier to extend a model to incorporate new behaviors without recoding the
 application.
 
 ### When to Use
-
-You should use the Strategy pattern when:
 
 * Many related classes differ only in their behavior.
 * You need different variants of an algorithm.
@@ -26,20 +33,21 @@ You should use the Strategy pattern when:
 
 ## Observer Pattern
 
-A subject may have any number of dependent observers and all observers are notified whenever the subject under goes a
-change in state. In response, each observer will query the subject to synchronize its state with the state of the
-subject. This kind of interaction is also known as publish-subscribe. The subject is the publisher of notifications and
-sends out these notifications without having to know who its observers are. Any number of observers can subscribe to
-receive notifications.
-### Potential pitfalls of implementing the Observer pattern
+The Observer pattern provides a way for a component to flexibly broadcast
+messages to interested receivers. It defines a one-to-many dependency between
+objects so that when one object changes state, all its dependents are notified
+and updated automatically.
 
-You should be aware of a few potential pitfalls when implementing the Observer pattern:
+### Benefits
 
-* Generally, you need to make sure that the change of state is complete and that the object has a consistent state
-before notifying observers of the change.
-* Be clear about whether the order in which Observer objects are notified is or is not predictable.
-* Do not let an Observer register itself twice with the same Observed object unless you are sure that is what it means
-to do.
+* Abstract coupling between subject and observer.
+* Support for broadcast communication.
+
+### When to Use
+
+* A change to one object requires changing the other object and you do not know
+how many objects need to change. An object should be able to notify other
+objects without making assumptions about the identity of those objects.
 
 > Available at:
-[https://www.gofpatterns.com/behavioral/patterns/strategy-pattern.php](https://www.gofpatterns.com/behavioral/patterns/strategy-pattern.php)
+[https://www.gofpatterns.com/behavioral/index.php](https://www.gofpatterns.com/behavioral/index.php)
