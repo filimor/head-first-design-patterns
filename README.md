@@ -1,79 +1,79 @@
-# <PROJECT_NAME>
+# Head First Design Patterns
 
-> TODO Description
+> A set of labs to understand and practice design patterns (under development).
 
-![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/filimor/<PROJECT_NAME>)
-![Travis (.org) branch](https://img.shields.io/travis/filimor/<PROJECT_NAME>/master)
-![Codecov branch](https://img.shields.io/codecov/c/github/filimor/<PROJECT_NAME>/master?token=<PROJECT_TOKEN>)
-![Requires.io (branch)](https://img.shields.io/requires/github/filimor/<PROJECT_NAME>/master)
-![GitHub issues](https://img.shields.io/github/issues-raw/filimor/<PROJECT_NAME>)
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/filimor/<PROJECT_NAME>)
-![GitHub forks](https://img.shields.io/github/forks/filimor/<PROJECT_NAME>)
-![GitHub stars](https://img.shields.io/github/stars/filimor/<PROJECT_NAME>)
-![GitHub repo size](https://img.shields.io/github/repo-size/filimor/<PROJECT_NAME>)
-![GitHub All Releases](https://img.shields.io/github/downloads/filimor/<PROJECT_NAME>/total)
-![GitHub language count](https://img.shields.io/github/languages/count/filimor/<PROJECT_NAME>)
-![GitHub top language](https://img.shields.io/github/languages/top/filimor/<PROJECT_NAME>)
-![GitHub](https://img.shields.io/github/license/filimor/<PROJECT_NAME>)
-![GitHub last commit](https://img.shields.io/github/last-commit/filimor/<PROJECT_NAME>)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/filimor/head-first-design-patterns)
+![GitHub repo size](https://img.shields.io/github/repo-size/filimor/head-first-design-patterns)
+![GitHub license](https://img.shields.io/github/license/filimor/head-first-design-patterns)
+![GitHub last commit](https://img.shields.io/github/last-commit/filimor/head-first-design-patterns)
 
-*Read it in other languages:* [English](https://github.com/filimor/<PROJECT_NAME>/blob/master/README.md), [Português (Brasil)](https://github.com/filimor/<PROJECT_NAME>/blob/master/README.pt-br.md)
+*Read it in other languages:* [English](https://github.com/filimor/head-first-design-patterns/blob/master/README.md), [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-br.md)
 
 ## Description
 
-TODO
+This is a repository of the descriptions, UML class diagrams and examples of the
+design patterns, based on the 'Head First Design Patterns' book but adapted to
+C# language (.NET 5).
 
 ## Table of Contents
 
 * [Behavioral Patterns](desctiption/BehavioralPatterns.md)
+* [Creational Patterns](desctiption/CreationalPatterns.md)
 
-# Princípios de projeto
+# Class Diagrams
 
-1. Identifique aspectos do seu aplicativo que variam e separe-os do que
-permanece igual (encapsule o que varia).
-2. Programe para uma interface, não para uma implementação.
-3. Dê prioridade à composição em relação à herança (TEM-UM pode ser melhor do
-que É-UM).
-4. Busque projetos baixamente acoplados entre objetos que interagem.
-5. As classes devem estar abertas para extensão, msa fechadas para modificação.
+The [UML Class Diagrams](docs/HeadFirstDesignPatterns.asta) were built with Astah UML.
 
-# Padrões de projeto
+# Project Principles
 
-* O Padrão **STRATEGY** define uma família de algoritmos, encapsula cada um
-deles e os torna intercambiáveis. A estratégia deixa o algoritmo variar
-independentemente dos clientes que o utilizam.
+The design patterns are guided by following principles:
 
-* O padrão **OBSERVER** define uma dependência um-para-muitos entre objetos de
-modo que, quanod um objeto muda de estado, todos os seus dependentes são
-notificados e atualizados automaticamente.
+1. Identify the aspects of your application that vary and separete them from
+what stays the same.
+2. Program to an interface, not an implementation.
+3. Favor composition above inheritance (HAS-A can be better than IS-A).
+4. Strive for loosely coupled designs between objects that interact.
+5. Classes should be open for extension, but closed for modification.
 
-* O padrão **DECORATOR** anexa responsabilidades adicionais a um objeto de
-maneira dinâmica. Os decoradores fornecem uma alternativa flexível para a
-subclasse para estender a funcionalidade.
+# Design Patterns
+
+| Padrão | Descrição |
+|-|-|
+| **STRATEGY** | It defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it. |
+| **OBSERVER** | It defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically. |
+| **DECORATOR** | It attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. |
 
 ## Build With
 
-TODO
+- [Microsoft Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
 
 ## Contributing
 
-Check out the [contribution guidelines](https://github.com/filimor/<PROJECT_NAME>/blob/master/CONTRIBUTING.md) and follow our [code of conduct](https://github.com/filimor/<PROJECT_NAME>/blob/master/CODE_OF_CONDUCT.md) if you want to contribute to this project.
+If you want to help to translate the project, include other languages or warn me
+about some bug you're welcome! Please follow our
+[code of conduct](https://github.com/filimor/head-first-design-patterns/blob/master/CODE_OF_CONDUCT.md).
 
 ## Translations
 
-* [English](https://github.com/filimor/<PROJECT_NAME>/blob/master/README.md)
-* [Português (Brasil)](https://github.com/filimor/<PROJECT_NAME>/blob/master/README.pt-br.md)
+* [English](https://github.com/filimor/head-first-design-patterns/blob/master/README.md)
+* [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-br.md)
 
 ## Credits
 
-- [@filimor](https://github.com/filimor/)
+* [@filimor](https://github.com/filimor/)
+* [@bethrobson](https://github.com/bethrobson/Head-First-Design-Patterns)
+(Book's repository)
 
 ## Contact
 
-- E-mail: filimor@posteo.net
-- LinkedIn: https://www.linkedin.com/in/filimor/
-- Twitter: https://www.twitter.com/filimorbr/
+* [E-mail](mailto:filimor@posteo.net)
+* [LinkedIn](https://www.linkedin.com/in/filimor/)
+* [Twitter](https://www.twitter.com/filimorbr/)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/filimor/<PROJECT_NAME>/blob/master/LICENSE "MIT") file for details.
+This project is licensed under the MIT License - see the
+[LICENSE.md](https://github.com/filimor/head-first-design-patterns/blob/master/LICENSE "MIT")
+file for details.

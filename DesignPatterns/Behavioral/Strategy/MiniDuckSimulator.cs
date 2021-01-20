@@ -2,7 +2,7 @@
 {
     public static class MiniDuckSimulator
     {
-        private static void Main()
+        public static void Main()
         {
             Duck mallard = new MallardDuck();
             Duck rubberDuckie = new RubberDuck();

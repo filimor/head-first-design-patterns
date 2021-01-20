@@ -4,7 +4,7 @@ namespace Decorator
 {
     public static class StarbuzzCoffee
     {
-        private static void Main()
+        public static void Main()
         {
             Beverage beverage = new Expresso();
             Console.WriteLine(beverage.ToString());
@@ -15,8 +15,10 @@ namespace Decorator
             beverage2 = new Whip(beverage2);
             Console.WriteLine(beverage2.ToString());
 
-            Beverage beverage3 = new HouseBlend();
-            beverage3.Size = BeverageSize.Venti;
+            Beverage beverage3 = new HouseBlend
+            {
+                Size = BeverageSize.Venti
+            };
             beverage3 = new Soy(beverage3);
             beverage3 = new Mocha(beverage3);
             beverage3 = new Whip(beverage3);

@@ -2,7 +2,7 @@
 {
     public static class WeatherStation
     {
-        private static void Main()
+        public static void Main()
         {
             WeatherData weatherData = new();
             var currentDisplay = new CurrentConditionsDisplay(weatherData);
