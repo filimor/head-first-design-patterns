@@ -19,6 +19,7 @@ C# language (.NET 5).
 
 * [Behavioral Patterns](desctiption/BehavioralPatterns.md)
 * [Creational Patterns](desctiption/CreationalPatterns.md)
+* [Structural Patterns](description/StructuralPatterns.md)
 
 # Class Diagrams
 
@@ -39,9 +40,10 @@ what stays the same.
 
 | Padrão | Descrição |
 |-|-|
-| **STRATEGY** | It defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it. |
-| **OBSERVER** | It defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically. |
-| **DECORATOR** | It attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. |
+| **STRATEGY** | Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it. |
+| **OBSERVER** | Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically. |
+| **DECORATOR** | Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. |
+| **FACTORY** | Defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. |
 
 ## Build With
 
@@ -49,7 +51,7 @@ what stays the same.
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
 
-## Contributing
+## Como Contribuir
 
 If you want to help to translate the project, include other languages or warn me
 about some bug you're welcome! Please follow our
@@ -58,7 +60,7 @@ about some bug you're welcome! Please follow our
 ## Translations
 
 * [English](https://github.com/filimor/head-first-design-patterns/blob/master/README.md)
-* [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-br.md)
+* [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-BR.md)
 
 ## Credits
 

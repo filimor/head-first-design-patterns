@@ -19,6 +19,7 @@ adaptado à linguagem C# (.NET 5).
 
 * [Padrões Comportamentais](desctiption/BehavioralPatterns.pt-BR.md)
 * [Padrões Criacionais](desctiption/CreationalPatterns.pt-BR.md)
+* [Padrões Estruturais](description/StructuralPatterns.pt-BR.md)
 
 # Diagrams de Classe
 
@@ -43,6 +44,7 @@ que É-UM).
 | **STRATEGY** | Define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. A estratégia deixa o algoritmo variar independentemente dos clientes que o utilizam. |
 | **OBSERVER** | Define uma dependência um-para-muitos entre objetos de modo que, quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. |
 | **DECORATOR** | Anexa responsabilidades adicionais a um objeto de maneira dinâmica. Os decoradores fornecem uma alternativa flexível para a subclasse para estender a funcionalidade. |
+| **FACTORY** | Define uma interface para criar um objeto, mas permite às classes decidir qual classe instanciar. O Factory Method permite a uma classe deferir a instanciação para subclasses. |
 
 ## Feito Com
 
