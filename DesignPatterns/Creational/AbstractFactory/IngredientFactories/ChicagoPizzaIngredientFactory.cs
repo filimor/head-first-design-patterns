@@ -24,9 +24,9 @@ namespace AbstractFactory.IngredientFactories
             return new MozzarellaCheese();
         }
 
-        public IVeggies[] CreateVeggies()
+        public IVeggie[] CreateVeggies()
         {
-            return new IVeggies[]
+            return new IVeggie[]
             {
                 new BlackOlives(),
                 new Spinach(),

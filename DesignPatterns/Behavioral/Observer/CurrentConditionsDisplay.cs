@@ -4,8 +4,8 @@ namespace Observer
 {
     public class CurrentConditionsDisplay : IObserver<WeatherInfo>, IDisplayElement
     {
-        private IDisposable _unsubscriber;
         private WeatherInfo _weatherInfo;
+        private IDisposable _unsubscriber;
 
         public CurrentConditionsDisplay(IObservable<WeatherInfo> observable)
         {
@@ -34,14 +34,14 @@ namespace Observer
             Display();
         }
 
-        public virtual void Unsubscribe()
-        {
-            _unsubscriber.Dispose();
-        }
-
-        public virtual void Subscribe(IObservable<WeatherInfo> observer)
+        public void Subscribe(IObservable<WeatherInfo> observer)
         {
             _unsubscriber = observer.Subscribe(this);
+        }
+
+        public void Unsubscribe()
+        {
+            _unsubscriber.Dispose();
         }
     }
 }

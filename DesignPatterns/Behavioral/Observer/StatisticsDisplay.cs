@@ -40,14 +40,14 @@ namespace Observer
             Display();
         }
 
-        public virtual void Unsubscribe()
-        {
-            _unsubscriber.Dispose();
-        }
-
         public virtual void Subscribe(IObservable<WeatherInfo> observer)
         {
             _unsubscriber = observer.Subscribe(this);
+        }
+
+        public virtual void Unsubscribe()
+        {
+            _unsubscriber.Dispose();
         }
     }
 }

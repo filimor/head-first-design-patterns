@@ -1,4 +1,6 @@
-﻿namespace SimpleFactory
+﻿using SimpleFactory.Pizzas;
+
+namespace SimpleFactory
 {
     public class SimplePizzaFactory
     {

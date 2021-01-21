@@ -1,4 +1,6 @@
-﻿namespace FactoryMethod
+﻿using FactoryMethod.ChicagoStyle;
+
+namespace FactoryMethod
 {
     public class ChicagoPizzaStore : PizzaStore
     {

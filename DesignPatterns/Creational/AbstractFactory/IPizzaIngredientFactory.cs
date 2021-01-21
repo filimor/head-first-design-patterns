@@ -8,7 +8,7 @@
 
         public ICheese CreateCheese();
 
-        public IVeggies[] CreateVeggies();
+        public IVeggie[] CreateVeggies();
 
         public IPepperoni CreatePepperoni();
 

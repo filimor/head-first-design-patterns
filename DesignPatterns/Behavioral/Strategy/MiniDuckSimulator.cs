@@ -1,4 +1,7 @@
-﻿namespace Strategy
+﻿using Strategy.Ducks;
+using Strategy.FlyBehaviors;
+
+namespace Strategy
 {
     public static class MiniDuckSimulator
     {

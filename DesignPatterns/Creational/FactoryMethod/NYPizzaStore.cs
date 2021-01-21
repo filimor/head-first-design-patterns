@@ -1,4 +1,6 @@
-﻿namespace FactoryMethod
+﻿using FactoryMethod.NYStyle;
+
+namespace FactoryMethod
 {
     public class NYPizzaStore : PizzaStore
     {

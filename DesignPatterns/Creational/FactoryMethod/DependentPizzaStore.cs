@@ -1,4 +1,7 @@
-﻿namespace FactoryMethod
+﻿using FactoryMethod.ChicagoStyle;
+using FactoryMethod.NYStyle;
+
+namespace FactoryMethod
 {
     public static class DependentPizzaStore
     {

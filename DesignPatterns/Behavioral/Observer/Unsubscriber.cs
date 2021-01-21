@@ -5,8 +5,8 @@ namespace Observer
 {
     public class Unsubscriber : IDisposable
     {
-        private readonly List<IObserver<WeatherInfo>> _observers;
         private readonly IObserver<WeatherInfo> _observer;
+        private readonly List<IObserver<WeatherInfo>> _observers;
 
         public Unsubscriber(List<IObserver<WeatherInfo>> observers, IObserver<WeatherInfo> observer)
         {

@@ -2,33 +2,15 @@
 
 namespace Observer
 {
-    internal class ForecastDisplay : IObserver<WeatherInfo>, IDisplayElement
+    public class ForecastDisplay : IObserver<WeatherInfo>, IDisplayElement
     {
-        private IDisposable _unsubscriber;
         private WeatherInfo _weatherInfo;
         private WeatherInfo _lastWeatherInfo;
+        private IDisposable _unsubscriber;
 
         public ForecastDisplay(IObservable<WeatherInfo> observable)
         {
             Subscribe(observable);
-        }
-
-        public void OnCompleted()
-        {
-            // Do nothing.
-        }
-
-        public void OnError(Exception error)
-        {
-            // Do nothing.
-        }
-
-        public void OnNext(WeatherInfo weatherInfo)
-        {
-            _lastWeatherInfo = _weatherInfo;
-            _weatherInfo = weatherInfo;
-
-            Display();
         }
 
         public void Display()
@@ -49,14 +31,32 @@ namespace Observer
             }
         }
 
-        public virtual void Unsubscribe()
+        public void OnCompleted()
         {
-            _unsubscriber.Dispose();
+            // Do nothing.
         }
 
-        public virtual void Subscribe(IObservable<WeatherInfo> observer)
+        public void OnError(Exception error)
+        {
+            // Do nothing.
+        }
+
+        public void OnNext(WeatherInfo weatherInfo)
+        {
+            _lastWeatherInfo = _weatherInfo;
+            _weatherInfo = weatherInfo;
+
+            Display();
+        }
+
+        public void Subscribe(IObservable<WeatherInfo> observer)
         {
             _unsubscriber = observer.Subscribe(this);
+        }
+
+        public void Unsubscribe()
+        {
+            _unsubscriber.Dispose();
         }
     }
 }

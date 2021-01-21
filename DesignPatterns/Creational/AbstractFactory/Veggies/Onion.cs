@@ -1,6 +1,6 @@
 ﻿namespace AbstractFactory.Veggies
 {
-    public class Onion : IVeggies
+    public class Onion : IVeggie
     {
         public override string ToString()
         {

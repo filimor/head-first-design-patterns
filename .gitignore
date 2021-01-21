@@ -352,4 +352,4 @@ MigrationBackup/
 .ionide/
 
 # Astah temp files
-docs/*.lock
+**/*.asta.lock
