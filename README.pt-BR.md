@@ -17,8 +17,8 @@ adaptado à linguagem C# (.NET 5).
 
 ## Índice
 
-* [Padrões Comportamentais](desctiption/BehavioralPatterns.pt-BR.md)
-* [Padrões Criacionais](desctiption/CreationalPatterns.pt-BR.md)
+* [Padrões Comportamentais](description/BehavioralPatterns.pt-BR.md)
+* [Padrões Criacionais](description/CreationalPatterns.pt-BR.md)
 * [Padrões Estruturais](description/StructuralPatterns.pt-BR.md)
 
 # Diagrams de Classe

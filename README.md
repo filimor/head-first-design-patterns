@@ -17,8 +17,8 @@ C# language (.NET 5).
 
 ## Table of Contents
 
-* [Behavioral Patterns](desctiption/BehavioralPatterns.md)
-* [Creational Patterns](desctiption/CreationalPatterns.md)
+* [Behavioral Patterns](description/BehavioralPatterns.md)
+* [Creational Patterns](description/CreationalPatterns.md)
 * [Structural Patterns](description/StructuralPatterns.md)
 
 # Class Diagrams
