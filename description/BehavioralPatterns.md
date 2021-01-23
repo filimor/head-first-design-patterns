@@ -17,7 +17,9 @@ lets the algorithm vary independently from clients that use it. In addition the
 pattern, defines a group of classes that represent a set of possible behaviors.
 These behaviors can then be used in an application to change its functionality.
 
-### Benefits
+<img src="strategy.png" width=600>
+
+### Benefits of Strategy Pattern
 
 * An alternative to subclassing.
 * Defines each behavior in its own class, which eliminates conditional
@@ -25,7 +27,7 @@ statements.
 * Easier to extend a model to incorporate new behaviors without recoding the
 application.
 
-### When to Use
+### When to Use Strategy Pattern
 
 * Many related classes differ only in their behavior.
 * You need different variants of an algorithm.
@@ -38,12 +40,14 @@ messages to interested receivers. It defines a one-to-many dependency between
 objects so that when one object changes state, all its dependents are notified
 and updated automatically.
 
-### Benefits
+<img src="observer.png" width=400>
+
+### Benefits of Observer Pattern
 
 * Abstract coupling between subject and observer.
 * Support for broadcast communication.
 
-### When to Use
+### When to Use Observer Pattern
 
 * A change to one object requires changing the other object and you do not know
 how many objects need to change. An object should be able to notify other

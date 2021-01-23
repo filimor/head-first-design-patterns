@@ -44,6 +44,7 @@ what stays the same.
 | **OBSERVER** | Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically. |
 | **DECORATOR** | Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. |
 | **FACTORY** | Defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. |
+| **SINGLETON** | Ensures a class has only one instance, and provides a global point of access to it. |
 
 ## Build With
 

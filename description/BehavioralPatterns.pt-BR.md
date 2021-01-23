@@ -19,7 +19,9 @@ define um grupo de classes que representam um conjunto de comportamentos
 possíveis. Os comportamentos podem então ser usados em uma aplicação para
 alterar suas funcionalidades.
 
-### Benefícios
+<img src="strategy.png" width=600>
+
+### Benefícios do Padrão Strategy
 
 * Uma alternativa à herança de classe.
 * Define cada comportamento em sua própria classe, o que elimina declarações
@@ -27,7 +29,7 @@ condicionais.
 * Mais fácil de extender um modelo para incorporar novos comportamentos sem
 alterar o código da aplicação.
 
-### Quando Usar
+### Quando Usar o Padrão Strategy
 
 * Muitas classes relacionadas diferem entre si apenas em seus comportamentos.
 * Você precisa de diferentes variações de um algoritmo.
@@ -40,12 +42,14 @@ receptores interessados de uma maneira flexível. Ele devine uma dependência
 um-para-muitos entre os objetos, assim, quando um objeto muda de estado, todos
 os seus dependentes são notificados e atualizados automaticamente.
 
-### Benefícios
+<img src="observer.png" width=400>
+
+### Benefícios do Padrão Observer
 
 * Baixo acoplamento entre sujeito e observador.
 * Suporte para comunicação difundida (broadcast).
 
-### Quando usar
+### Quando usar o Padrão Observer
 
 * Uma mudança em um objeto requer alterações em outros objetos e você não
 sabe quantos objetos precisam ser modificados. Um objeto deveria ser capaz de

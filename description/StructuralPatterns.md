@@ -14,7 +14,9 @@ original object. The Decorator pattern attaches additional responsibilities to
 an object dynamically to provide a flexible alternative to changing object
 functionality without using static inheritance.
 
-### Benefits
+<img src="decorator.png" width=400>
+
+### Benefits of Decorator Pattern
 
 * More flexibility than static inheritance.
 * Avoids feature-laden classes high up in the hierarchy.
@@ -24,7 +26,7 @@ object.
 * Enhances the object's extensibility because you make changes by coding new
 classes.
 
-### When To Use
+### When To Use Decorator Pattern
 
 * You want to add responsibilities to individual objects dynamically and
 transparently, that is without affecting other objects.

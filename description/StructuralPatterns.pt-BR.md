@@ -14,7 +14,9 @@ original. O Padrão Decorator incluir responsabilidades adicionais a um objeto
 dinamicamente para prover uma alternativa flexível para alterar funcionalidades
 do objeto sem usar herança estática.
 
-### Benefícios
+<img src="decorator.png" width=400>
+
+### Benefícios do Padrão Decorator
 
 * Mais flexibilidade do que a herança estática.
 * Evita classes com características de alto nível na hierarquia.
@@ -24,7 +26,7 @@ os comportamentos dentro do objeto.
 * Garante a extensibilidade do objeto porque você altera o código com novas
 classes.
 
-### Quando Usar
+### Quando Usar o Padrão Decorator
 
 * Você quer adicionar responsabilidades a objetos individuais dinamicamente e de
 forma transparente, ou seja, sem afetar outros objetos.
