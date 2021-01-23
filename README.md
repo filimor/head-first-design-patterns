@@ -21,11 +21,11 @@ C# language (.NET 5).
 * [Creational Patterns](description/CreationalPatterns.md)
 * [Structural Patterns](description/StructuralPatterns.md)
 
-# Class Diagrams
+## Class Diagrams
 
 The [UML Class Diagrams](docs/HeadFirstDesignPatterns.asta) were built with Astah UML.
 
-# Project Principles
+## Project Principles
 
 The design patterns are guided by following principles:
 
@@ -36,7 +36,7 @@ what stays the same.
 4. Strive for loosely coupled designs between objects that interact.
 5. Classes should be open for extension, but closed for modification.
 
-# Design Patterns
+## Design Patterns
 
 | Padrão | Descrição |
 |-|-|
@@ -48,9 +48,9 @@ what stays the same.
 
 ## Build With
 
-- [Microsoft Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
+* [Microsoft Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
 
 ## Como Contribuir
 

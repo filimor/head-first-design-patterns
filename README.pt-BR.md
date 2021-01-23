@@ -21,11 +21,11 @@ adaptado à linguagem C# (.NET 5).
 * [Padrões Criacionais](description/CreationalPatterns.pt-BR.md)
 * [Padrões Estruturais](description/StructuralPatterns.pt-BR.md)
 
-# Diagrams de Classe
+## Diagrams de Classe
 
 Os [Diagramas de Classe UML](docs/HeadFirstDesignPatterns.asta) foram feitos com o Astah UML.
 
-# Princípios de projeto
+## Princípios de projeto
 
 Os padrões de projeto são orientados pelos seguintes princípios:
 
@@ -37,7 +37,7 @@ que É-UM).
 4. Busque projetos baixamente acoplados entre objetos que interagem.
 5. As classes devem estar abertas para extensão, mas fechadas para modificação
 
-# Padrões de projeto
+## Padrões de projeto
 
 | Padrão | Descrição |
 |-|-|
@@ -49,9 +49,9 @@ que É-UM).
 
 ## Feito Com
 
-- [Microsoft Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
+* [Microsoft Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
 
 ## Contribuindo
 
