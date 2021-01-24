@@ -7,7 +7,7 @@
 ![GitHub license](https://img.shields.io/github/license/filimor/head-first-design-patterns)
 ![GitHub last commit](https://img.shields.io/github/last-commit/filimor/head-first-design-patterns)
 
-*Read it in other languages:* [English](https://github.com/filimor/head-first-design-patterns/blob/master/README.md), [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-br.md)
+*Read it in other languages:* [English](https://github.com/filimor/head-first-design-patterns/blob/master/README.md), [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-BR.md)
 
 ## Description
 
@@ -51,7 +51,7 @@ what stays the same.
 
 * [Microsoft Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/)
 * [Visual Studio Code](https://code.visualstudio.com/)
-*                                        [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
+* [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
 
 ## Como Contribuir
 

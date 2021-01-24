@@ -7,7 +7,7 @@
 ![GitHub license](https://img.shields.io/github/license/filimor/head-first-design-patterns)
 ![GitHub last commit](https://img.shields.io/github/last-commit/filimor/head-first-design-patterns)
 
-*Leia em outros idiomas:* [English](https://github.com/filimor/head-first-design-patterns/blob/master/README.md), [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-br.md)
+*Leia em outros idiomas:* [English](https://github.com/filimor/head-first-design-patterns/blob/master/README.md), [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-BR.md)
 
 ## Descrição
 
@@ -63,7 +63,7 @@ sobre algum erro, fique à vontade! Por favor siga nosso
 ## Traduções
 
 * [English](https://github.com/filimor/head-first-design-patterns/blob/master/README.md)
-* [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-br.md)
+* [Português (Brasil)](https://github.com/filimor/head-first-design-patterns/blob/master/README.pt-BR.md)
 
 ## Créditos
 
