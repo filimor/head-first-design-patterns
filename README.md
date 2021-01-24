@@ -45,12 +45,13 @@ what stays the same.
 | **DECORATOR** | Attaches additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality. |
 | **FACTORY** | Defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. |
 | **SINGLETON** | Ensures a class has only one instance, and provides a global point of access to it. |
+| **COMMAND** | Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log request, and support undoable operations. |
 
 ## Build With
 
 * [Microsoft Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/)
 * [Visual Studio Code](https://code.visualstudio.com/)
-* [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
+*                                        [Astah UML Model Version 39](https://astah.net/products/astah-uml/)
 
 ## Como Contribuir
 

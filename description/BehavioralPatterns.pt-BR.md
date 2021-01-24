@@ -56,5 +56,25 @@ sabe quantos objetos precisam ser modificados. Um objeto deveria ser capaz de
 notificar outros objetos sem fazer suposições sobre a identidade desses
 objetos.
 
+## Padrão Command
+
+O padrão Command encapsula uma requisição em um objeto, o que permite armazenar
+o comando, passá-lo a um método e retornar o comando como qualquer outro objeto.
+
+<img src="command.png" width=600>
+
+### Benefícios do Padrão Command
+
+* Separa o objeto que invoca a operação daquele que sabe como executá-la.
+* É fácil adicionar novos comandos, porque você não tem que alterar sa classes
+existentes.
+
+### Quando Usar o Padrão Command
+
+* Você quer parametrizar os objetos pela ação que eles executam.
+* Você especifica, enfileira e executa solicitações em momentos diferentes.
+* Você precisa dar suporte a operações reversíveis, registro de logs e
+transações.
+
 > Disponível em:
 [https://www.gofpatterns.com/behavioral/index.php](https://www.gofpatterns.com/behavioral/index.php) (tradução livre)

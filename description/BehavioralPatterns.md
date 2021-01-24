@@ -53,5 +53,26 @@ and updated automatically.
 how many objects need to change. An object should be able to notify other
 objects without making assumptions about the identity of those objects.
 
+## Command Pattern
+
+The Command pattern encapsulates a request in an object, which enables you to
+store the command, pass the command to a method, and return the command like any
+other object.
+
+<img src="command.png" width=600>
+
+### Benefits of Command Pattern
+
+* Separates the object that invokes the operation from the one that knows how to
+perform it.
+* It's easy to add new commands, because you don't have to change existing
+classes.
+
+### When to Use Command Pattern
+
+* You want to parameterize objects by an action to perform.
+* You specify, queue, and execute requests at different times.
+* You must support undo, logging, or transactions
+
 > Available at:
 [https://www.gofpatterns.com/behavioral/index.php](https://www.gofpatterns.com/behavioral/index.php)

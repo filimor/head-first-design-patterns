@@ -46,6 +46,7 @@ que É-UM).
 | **DECORATOR** | Anexa responsabilidades adicionais a um objeto de maneira dinâmica. Os decoradores fornecem uma alternativa flexível para a subclasse para estender a funcionalidade. |
 | **FACTORY** | Define uma interface para criar um objeto, mas permite às classes decidir qual classe instanciar. O Factory Method permite a uma classe deferir a instanciação para subclasses. |
 | **SINGLETON** | Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela. |
+| **COMMAND** | Encapsula uma solicitação como um objeto, o que lhe permite parametrizar outros objetos com diferentes solicitações e implementar recursos de cancelamento de operações. |
 
 ## Feito Com
 
