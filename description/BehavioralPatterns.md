@@ -9,6 +9,47 @@ Behavioral patterns influence how state and behavior flow through a system.
 By optimizing how state and behavior are transferred and modified, you can
 simplify, optimize, and increase the maintainability of an application.
 
+## Command Pattern
+
+The Command pattern encapsulates a request in an object, which enables you to
+store the command, pass the command to a method, and return the command like any
+other object.
+
+<img src="command.png" width=600>
+
+### Benefits of Command Pattern
+
+* Separates the object that invokes the operation from the one that knows how to
+perform it.
+* It's easy to add new commands, because you don't have to change existing
+classes.
+
+### When to Use Command Pattern
+
+* You want to parameterize objects by an action to perform.
+* You specify, queue, and execute requests at different times.
+* You must support undo, logging, or transactions
+
+## Observer Pattern
+
+The Observer pattern provides a way for a component to flexibly broadcast
+messages to interested receivers. It defines a one-to-many dependency between
+objects so that when one object changes state, all its dependents are notified
+and updated automatically.
+
+<img src="observer.png" width=400>
+
+### Benefits of Observer Pattern
+
+* Abstract coupling between subject and observer.
+* Support for broadcast communication.
+
+### When to Use Observer Pattern
+
+* A change to one object requires changing the other object and you do not know
+how many objects need to change. An object should be able to notify other
+objects without making assumptions about the identity of those objects.
+
 ## Strategy Pattern
 
 The intent of the Strategy Pattern is to define a family of algorithms,
@@ -32,47 +73,6 @@ application.
 * Many related classes differ only in their behavior.
 * You need different variants of an algorithm.
 * An algorithm uses data unknown to clients.
-
-## Observer Pattern
-
-The Observer pattern provides a way for a component to flexibly broadcast
-messages to interested receivers. It defines a one-to-many dependency between
-objects so that when one object changes state, all its dependents are notified
-and updated automatically.
-
-<img src="observer.png" width=400>
-
-### Benefits of Observer Pattern
-
-* Abstract coupling between subject and observer.
-* Support for broadcast communication.
-
-### When to Use Observer Pattern
-
-* A change to one object requires changing the other object and you do not know
-how many objects need to change. An object should be able to notify other
-objects without making assumptions about the identity of those objects.
-
-## Command Pattern
-
-The Command pattern encapsulates a request in an object, which enables you to
-store the command, pass the command to a method, and return the command like any
-other object.
-
-<img src="command.png" width=600>
-
-### Benefits of Command Pattern
-
-* Separates the object that invokes the operation from the one that knows how to
-perform it.
-* It's easy to add new commands, because you don't have to change existing
-classes.
-
-### When to Use Command Pattern
-
-* You want to parameterize objects by an action to perform.
-* You specify, queue, and execute requests at different times.
-* You must support undo, logging, or transactions
 
 > Available at:
 [https://www.gofpatterns.com/behavioral/index.php](https://www.gofpatterns.com/behavioral/index.php)

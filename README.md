@@ -46,6 +46,7 @@ what stays the same.
 | **FACTORY** | Defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses. |
 | **SINGLETON** | Ensures a class has only one instance, and provides a global point of access to it. |
 | **COMMAND** | Encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log request, and support undoable operations. |
+| **ADAPTER** | Converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces. |
 
 ## Build With
 

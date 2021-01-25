@@ -12,36 +12,6 @@ Os padrões de projeto criacionais são compostos de duas ideias dominantes.
 * A outra é esconder como as instâncias dessas classes concretas são criadas
 e combinadas.
 
-## Factory Method
-
-O padrão Factory Method define uma interface para criação de um objeto, mas
-deixa as subclasses decidirem que classe instanciar. O Factory Method deixa a
-classe delegar a instanciação às subclasses, o que é útil para construir
-objetos individuais para propósitos específicos sem que o cliente conheça as
-classes específicas sendo instanciadas. Isso permite introduzir novas classes
-sem modificar o código porque as novas classes implementam apenas a interface
-para que possa ser utilizada pelo cliente. Você cria uma classe fábrica para
-criar a nova classe e a fábrica implementa a interface fábrica.
-
-<img src="factory_method.png" width=400>
-
-### Benefícios do Factory Method
-
-* Elimina a necessidade de vincular as classes da aplicação no seu código. O
-código lida somente com a interface, assim você pode trabalhar com qualquer
-classe que implemente essa interface.
-* Possibilita que as subclasses forneçam uma versão estendida de um objeto,
-porque criar um objeto dentro de uma classe é mais flexível do que criar o
-objeto diretamente no cliente.
-
-### Quando Usar Factory Method
-
-* Uma classe não pode antecipar a classe dos objetos que deve criar.
-* Uma classe quer que suas subclasses especifiquem os objetos que ela cria.
-* As classes delegam responsabilidade para uma de várias classes auxiliares,
-e você quer restringir o conhecimento de qual classe auxiliar recebe a
-delegação.
-
 ## Abstract Factory
 
 Este padrão fornece uma interface para criar famílias de objetos relacionados
@@ -73,6 +43,36 @@ a) MS Windows ou b) Apple Macintosh
 * A família de produtos relacionados é desenhada para ser usada em conjunto, e
 você precisa garantir essa restrição. Este é o ponto chave do padrão, do
 contrário você poderia usar um Factory Pattern.
+
+## Factory Method
+
+O padrão Factory Method define uma interface para criação de um objeto, mas
+deixa as subclasses decidirem que classe instanciar. O Factory Method deixa a
+classe delegar a instanciação às subclasses, o que é útil para construir
+objetos individuais para propósitos específicos sem que o cliente conheça as
+classes específicas sendo instanciadas. Isso permite introduzir novas classes
+sem modificar o código porque as novas classes implementam apenas a interface
+para que possa ser utilizada pelo cliente. Você cria uma classe fábrica para
+criar a nova classe e a fábrica implementa a interface fábrica.
+
+<img src="factory_method.png" width=400>
+
+### Benefícios do Factory Method
+
+* Elimina a necessidade de vincular as classes da aplicação no seu código. O
+código lida somente com a interface, assim você pode trabalhar com qualquer
+classe que implemente essa interface.
+* Possibilita que as subclasses forneçam uma versão estendida de um objeto,
+porque criar um objeto dentro de uma classe é mais flexível do que criar o
+objeto diretamente no cliente.
+
+### Quando Usar Factory Method
+
+* Uma classe não pode antecipar a classe dos objetos que deve criar.
+* Uma classe quer que suas subclasses especifiquem os objetos que ela cria.
+* As classes delegam responsabilidade para uma de várias classes auxiliares,
+e você quer restringir o conhecimento de qual classe auxiliar recebe a
+delegação.
 
 > Disponível em:
 [https://www.gofpatterns.com/creational/index.php](https://www.gofpatterns.com/creational/index.php) (tradução livre)
