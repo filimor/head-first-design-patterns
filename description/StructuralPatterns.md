@@ -14,7 +14,7 @@ of a class not known to its clients. An adapter object provides the
 functionality of an interface without having to know the class used to implement
 that interface.
 
-<img src="adapter.png" width=400>
+<div style="text-align:center"><img src="adapter.png" width=400></div>
 
 ### Benefits of Adapter Pattern
 
@@ -42,7 +42,7 @@ original object. The Decorator pattern attaches additional responsibilities to
 an object dynamically to provide a flexible alternative to changing object
 functionality without using static inheritance.
 
-<img src="decorator.png" width=400>
+<div style="text-align:center"><img src="decorator.png" width=400></div>
 
 ### Benefits of Decorator Pattern
 
@@ -61,6 +61,36 @@ transparently, that is without affecting other objects.
 * You want to add responsibilities to the object that you want to change in the
 future.
 * When extension by static sub-classing is impractical.
+
+## Facade Pattern
+
+The Facade pattern provides a unified interface to a group of interfaces in a
+subsystem.
+The Facade pattern defines a higher-level interface that makes the subsystem
+easier to use because you have only one interface. This unified interface
+enables an object to access the subsystem using the interface to communicate
+with the subsystem.
+
+<div style="text-align:center"><img src="facade.png" width=400></div>
+
+### Benefits of Facade Pattern
+
+* Provides a simple interface to a complex system without reducing the options
+provided by the system.
+* Shields clients from subsystem components.
+* Promotes weak coupling between the subsystem and its clients.
+* Reduces coupling between subsystems if every subsystem uses its own Facade
+pattern and other parts of the system use the Facade pattern to communicate with
+the subsystem.
+* Translates the client requests to the subsystems that can fulfill those
+requests.
+
+### When To Use Facade Pattern
+
+* You want to provide a simple interface to a complex subsystem.
+* There are many dependencies between clients and implementation classes of an
+abstraction.
+* You want to layer your subsystems.
 
 > Available at:
 [https://www.gofpatterns.com/structural-patterns/index.php](https://www.gofpatterns.com/structural-patterns/index.php)

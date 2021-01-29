@@ -14,9 +14,9 @@ instância de uma classe não conhecida por eles. Um objeto adaptador fornece a
 funcionalidade de uma interface sem ter que conhecer as classes usadas para
 implementar essa interface.
 
-<img src="adapter.png" width=400>
+<div style="text-align:center"><img src="adapter.png" width=400></div>
 
-### Benefícios do Padrão Adapter
+### Vantagens do Padrão Adapter
 
 * Permite que dois ou mais objetos incompatíveis se comuniquem e interajam.
 * Melhora a reusabilidade de funcionalidades antigas.
@@ -42,9 +42,9 @@ original. O Padrão Decorator incluir responsabilidades adicionais a um objeto
 dinamicamente para prover uma alternativa flexível para alterar funcionalidades
 do objeto sem usar herança estática.
 
-<img src="decorator.png" width=400>
+<div style="text-align:center"><img src="decorator.png" width=400></div>
 
-### Benefícios do Padrão Decorator
+### Vantagens do Padrão Decorator
 
 * Mais flexibilidade do que a herança estática.
 * Evita classes com características de alto nível na hierarquia.
@@ -61,6 +61,33 @@ forma transparente, ou seja, sem afetar outros objetos.
 * Você quer adicionar responsabilidades ao objeto que você quer alterar no
 futuro.
 * Quando a extensão por sub-classes estáticas é impraticável.
+
+## Padrão Facade
+
+O padrão Facade fornece uma interface unificada para um grupo de interfaces em
+um subsistema. Ele define uma interface de alto nível que torna o uso do
+subsistema mais fácil porque você tem somente uma interface, que permite a um
+objeto utilizá-la para se comunicar com o subsistema.
+
+<div style="text-align:center"><img src="facade.png" width=400></div>
+
+### Vantagens do Padrão Facade
+
+* Fornece uma interface simples a um sistema complexo reduzindo as opções
+fornecidas pelo sistema.
+* Blinda os clientes dos componentes de subsistemas.
+* Promove baixo acoplamento entre o subsistema e seus clientes.
+* Reduz o acoplamento entre subsistemas se cada subsistema usar seu próprio
+padrão Facade e outras partes do sistema usarem o padrão Facade para se
+comunicarem com o subsistema.
+* Traduz as requisições do cliente aos subsistemas que podem atendê-las.
+
+### When To Use Facade Pattern
+
+* Você quer fornecer uma interface simples a um sistema complexo.
+* Há muitas dependências entre cliente e classes de implementação de uma
+abstração.
+* Você quer dividir seus subsistemas em camadas.
 
 > Disponível em:
 [https://www.gofpatterns.com/structural-patterns/index.php](https://www.gofpatterns.com/structural-patterns/index.php) (tradução livre)

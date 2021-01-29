@@ -31,23 +31,27 @@ Os padrões de projeto são orientados pelos seguintes princípios:
 
 1. Identifique aspectos do seu aplicativo que variam e separe-os do que
 permanece igual (encapsule o que varia).
-2. Programe para uma interface, não para uma implementação.
+2. Princípio da Inversão de Dependência: Programe para uma interface, não para
+uma implementação.
 3. Dê prioridade à composição em relação à herança (TEM-UM pode ser melhor do
 que É-UM).
 4. Busque projetos baixamente acoplados entre objetos que interagem.
-5. As classes devem estar abertas para extensão, mas fechadas para modificação
+5. Princípio Aberto-Fechado: As classes devem estar abertas para extensão, mas
+fechadas para modificação.
+6. Princípio do Conhecimento Mínimo: Só fale com seus amigos mais próximos.
 
 ## Padrões de projeto
 
 | Padrão | Descrição |
 |-|-|
-| **STRATEGY** | Define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. A estratégia deixa o algoritmo variar independentemente dos clientes que o utilizam. |
-| **OBSERVER** | Define uma dependência um-para-muitos entre objetos de modo que, quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. |
-| **DECORATOR** | Anexa responsabilidades adicionais a um objeto de maneira dinâmica. Os decoradores fornecem uma alternativa flexível para a subclasse para estender a funcionalidade. |
-| **FACTORY** | Define uma interface para criar um objeto, mas permite às classes decidir qual classe instanciar. O Factory Method permite a uma classe deferir a instanciação para subclasses. |
-| **SINGLETON** | Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela. |
-| **COMMAND** | Encapsula uma solicitação como um objeto, o que lhe permite parametrizar outros objetos com diferentes solicitações e implementar recursos de cancelamento de operações. |
 | **ADAPTER** | Converte a interface de uma classe para outra interface que o cliente espera encontrar. O Adaptador permite que classes com interfaces incompatíveis trabalhem juntas. |
+| **COMMAND** | Encapsula uma solicitação como um objeto, o que lhe permite parametrizar outros objetos com diferentes solicitações e implementar recursos de cancelamento de operações. |
+| **DECORATOR** | Anexa responsabilidades adicionais a um objeto de maneira dinâmica. Os decoradores fornecem uma alternativa flexível para a subclasse para estender a funcionalidade. |
+| **FACADE** | Fornece uma interface unificada para um conjunto de interfaces em um subsistema. A Fachada define uma interface de nível mais alto que facilita a utilização do subsistema. |
+| **FACTORY** | Define uma interface para criar um objeto, mas permite às classes decidir qual classe instanciar. O Factory Method permite a uma classe deferir a instanciação para subclasses. |
+| **OBSERVER** | Define uma dependência um-para-muitos entre objetos de modo que, quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. |
+| **SINGLETON** | Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela. |
+| **STRATEGY** | Define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. A estratégia deixa o algoritmo variar independentemente dos clientes que o utilizam. |
 
 ## Feito Com
 

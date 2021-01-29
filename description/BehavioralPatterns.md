@@ -15,7 +15,7 @@ The Command pattern encapsulates a request in an object, which enables you to
 store the command, pass the command to a method, and return the command like any
 other object.
 
-<img src="command.png" width=600>
+<div style="text-align:center"><img src="command.png" width=600></div>
 
 ### Benefits of Command Pattern
 
@@ -37,7 +37,7 @@ messages to interested receivers. It defines a one-to-many dependency between
 objects so that when one object changes state, all its dependents are notified
 and updated automatically.
 
-<img src="observer.png" width=400>
+<div style="text-align:center"><img src="observer.png" width=400></div>
 
 ### Benefits of Observer Pattern
 
@@ -58,7 +58,7 @@ lets the algorithm vary independently from clients that use it. In addition the
 pattern, defines a group of classes that represent a set of possible behaviors.
 These behaviors can then be used in an application to change its functionality.
 
-<img src="strategy.png" width=600>
+<div style="text-align:center"><img src="strategy.png" width=600></div>
 
 ### Benefits of Strategy Pattern
 

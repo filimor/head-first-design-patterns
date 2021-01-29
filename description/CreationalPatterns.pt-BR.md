@@ -26,9 +26,9 @@ do produto e a classe Abstract Factory. O cliente nunca sabe sobre a construçã
 concreta das classes fornecidas pelo padrão. O Abstract Factory é similar ao
 Factory Method, exceto pelo fato de criar famílias de objetos relacionados.
 
-<img src="abstract_factory.png" width=600>
+<div style="text-align:center"><img src="abstract_factory.png" width=600></div>
 
-### Benefícios do Abstract Factory
+### Benefícios do padrão Abstract Factory
 
 * Isola as classes concretas.
 * Torna fácil o intercâmbio de famílias de produtos.
@@ -55,9 +55,9 @@ sem modificar o código porque as novas classes implementam apenas a interface
 para que possa ser utilizada pelo cliente. Você cria uma classe fábrica para
 criar a nova classe e a fábrica implementa a interface fábrica.
 
-<img src="factory_method.png" width=400>
+<div style="text-align:center"><img src="factory_method.png" width=400></div>
 
-### Benefícios do Factory Method
+### Vantagens do Factory Method
 
 * Elimina a necessidade de vincular as classes da aplicação no seu código. O
 código lida somente com a interface, assim você pode trabalhar com qualquer

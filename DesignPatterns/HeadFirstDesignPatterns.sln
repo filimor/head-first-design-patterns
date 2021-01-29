@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Creational\Sin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Behavioral\Command\Command.csproj", "{3B2DAD60-6363-4C17-87F2-1CCA31107D84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{786976A8-1D25-43ED-A03C-BF75A73CF569}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{786976A8-1D25-43ED-A03C-BF75A73CF569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Structural\Facade\Facade.csproj", "{01BD4385-E047-45EB-9CCF-995018276A8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{786976A8-1D25-43ED-A03C-BF75A73CF569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{786976A8-1D25-43ED-A03C-BF75A73CF569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{786976A8-1D25-43ED-A03C-BF75A73CF569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BD4385-E047-45EB-9CCF-995018276A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BD4385-E047-45EB-9CCF-995018276A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BD4385-E047-45EB-9CCF-995018276A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BD4385-E047-45EB-9CCF-995018276A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{06B8835A-BF69-4069-9760-5F0B93AEF202} = {39D2FF34-A281-4FA2-A29B-F24A2A4DCD8D}
 		{3B2DAD60-6363-4C17-87F2-1CCA31107D84} = {B52FB579-30BD-430A-AB8E-53120B6E8AD2}
 		{786976A8-1D25-43ED-A03C-BF75A73CF569} = {756C5DD7-2D36-4A2E-8C17-0CCDC1E80B14}
+		{01BD4385-E047-45EB-9CCF-995018276A8F} = {756C5DD7-2D36-4A2E-8C17-0CCDC1E80B14}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B396D6B1-76B1-43E9-8019-925ED3E0FE9F}

@@ -15,9 +15,9 @@ da sua aplicação.
 O padrão Command encapsula uma requisição em um objeto, o que permite armazenar
 o comando, passá-lo a um método e retornar o comando como qualquer outro objeto.
 
-<img src="command.png" width=600>
+<div style="text-align:center"><img src="command.png" width=600></div>
 
-### Benefícios do Padrão Command
+### Vantagens do Padrão Command
 
 * Separa o objeto que invoca a operação daquele que sabe como executá-la.
 * É fácil adicionar novos comandos, porque você não tem que alterar sa classes
@@ -37,9 +37,9 @@ receptores interessados de uma maneira flexível. Ele define uma dependência
 um-para-muitos entre os objetos, assim, quando um objeto muda de estado, todos
 os seus dependentes são notificados e atualizados automaticamente.
 
-<img src="observer.png" width=400>
+<div style="text-align:center"><img src="observer.png" width=400></div>
 
-### Benefícios do Padrão Observer
+### Vantagens do Padrão Observer
 
 * Baixo acoplamento entre sujeito e observador.
 * Suporte para comunicação difundida (broadcast).
@@ -60,9 +60,9 @@ define um grupo de classes que representam um conjunto de comportamentos
 possíveis. Os comportamentos podem então ser usados em uma aplicação para
 alterar suas funcionalidades.
 
-<img src="strategy.png" width=600>
+<div style="text-align:center"><img src="strategy.png" width=600></div>
 
-### Benefícios do Padrão Strategy
+### Vantagens do Padrão Strategy
 
 * Uma alternativa à herança de classe.
 * Define cada comportamento em sua própria classe, o que elimina declarações

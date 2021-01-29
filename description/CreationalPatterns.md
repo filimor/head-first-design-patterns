@@ -27,7 +27,7 @@ concrete construction classes provided by this pattern. The Abstract Factory
 pattern is similar to the Factory Method pattern, except it creates families of
 related objects.
 
-<img src="abstract_factory.png" width=600>
+<div style="text-align:center"><img src="abstract_factory.png" width=600></div>
 
 ### Benefits of Abstract Factory
 
@@ -56,7 +56,7 @@ without modifying the code because the new class implements only the interface
 so it can be used by the client. You create a new factory class to create the
 new class and the factory class implements the factory interface.
 
-<img src="factory_method.png" width=400>
+<div style="text-align:center"><img src="factory_method.png" width=400></div>
 
 ### Benefits of Factory Method
 
