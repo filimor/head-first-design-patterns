@@ -6,13 +6,13 @@ namespace Facade
     public class HomeTheaterFacade
     {
         private readonly Amplifier _amplifier;
-        private CdPlayer _cd;
+        private readonly CdPlayer _cd;
         private readonly DvdPlayer _dvd;
         private readonly TheaterLights _lights;
         private readonly PopcornPopper _popper;
         private readonly Projector _projector;
         private readonly Screen _screen;
-        private Tuner _tuner;
+        private readonly Tuner _tuner;
 
         public HomeTheaterFacade(Amplifier amplifier, Tuner tuner, DvdPlayer dvdPlayer, CdPlayer cdPlayer,
             Projector projector, TheaterLights lights, Screen screen, PopcornPopper popper)

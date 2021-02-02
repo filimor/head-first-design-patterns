@@ -36,6 +36,7 @@ what stays the same.
 4. Strive for loosely coupled designs between objects that interact.
 5. Open-Closed Principle: Classes should be open for extension, but closed for modification.
 6. Principle of Least Knowledge: Talk only to your immediate friends.
+7. Hollywood Principle: Don't call us, we'll call you.
 
 ## Design Patterns
 
@@ -49,6 +50,7 @@ what stays the same.
 | **OBSERVER** | Defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically. |
 | **SINGLETON** | Ensures a class has only one instance, and provides a global point of access to it. |
 | **STRATEGY** | Defines a family of algorithms, encapsulates each one, and makes them interchangeable. Strategy lets the algorithm vary independently from clients that use it. |
+| **TEMPLATE METHOD** | Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure. |
 
 ## Build With
 

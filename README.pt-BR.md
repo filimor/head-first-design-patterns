@@ -39,6 +39,7 @@ que É-UM).
 5. Princípio Aberto-Fechado: As classes devem estar abertas para extensão, mas
 fechadas para modificação.
 6. Princípio do Conhecimento Mínimo: Só fale com seus amigos mais próximos.
+7. Princípio Hollywood: Não nos telefone, nós telefonaremos para você.
 
 ## Padrões de projeto
 
@@ -52,6 +53,7 @@ fechadas para modificação.
 | **OBSERVER** | Define uma dependência um-para-muitos entre objetos de modo que, quando um objeto muda de estado, todos os seus dependentes são notificados e atualizados automaticamente. |
 | **SINGLETON** | Garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a ela. |
 | **STRATEGY** | Define uma família de algoritmos, encapsula cada um deles e os torna intercambiáveis. A estratégia deixa o algoritmo variar independentemente dos clientes que o utilizam. |
+| **TEMPLATE METHOD** | Define o esqueleto de um algoritmo dentro de um método, transferindo alguns de seus passos para as subclasses. O Template Method permite que as subclasses redefinam certos passos de um algoritmo sem alterar a estrutura do próprio algoritmo. |
 
 ## Feito Com
 

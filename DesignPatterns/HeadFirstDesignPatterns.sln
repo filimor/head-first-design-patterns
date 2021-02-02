@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Command", "Behavioral\Comma
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{786976A8-1D25-43ED-A03C-BF75A73CF569}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Structural\Facade\Facade.csproj", "{01BD4385-E047-45EB-9CCF-995018276A8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Structural\Facade\Facade.csproj", "{01BD4385-E047-45EB-9CCF-995018276A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Behavioral\TemplateMethod\TemplateMethod.csproj", "{BD6B3F0F-84E2-4FA2-81A3-EEE6454DD283}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{01BD4385-E047-45EB-9CCF-995018276A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01BD4385-E047-45EB-9CCF-995018276A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01BD4385-E047-45EB-9CCF-995018276A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6B3F0F-84E2-4FA2-81A3-EEE6454DD283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6B3F0F-84E2-4FA2-81A3-EEE6454DD283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6B3F0F-84E2-4FA2-81A3-EEE6454DD283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6B3F0F-84E2-4FA2-81A3-EEE6454DD283}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{3B2DAD60-6363-4C17-87F2-1CCA31107D84} = {B52FB579-30BD-430A-AB8E-53120B6E8AD2}
 		{786976A8-1D25-43ED-A03C-BF75A73CF569} = {756C5DD7-2D36-4A2E-8C17-0CCDC1E80B14}
 		{01BD4385-E047-45EB-9CCF-995018276A8F} = {756C5DD7-2D36-4A2E-8C17-0CCDC1E80B14}
+		{BD6B3F0F-84E2-4FA2-81A3-EEE6454DD283} = {B52FB579-30BD-430A-AB8E-53120B6E8AD2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B396D6B1-76B1-43E9-8019-925ED3E0FE9F}

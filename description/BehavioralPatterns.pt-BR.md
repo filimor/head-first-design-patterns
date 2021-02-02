@@ -7,7 +7,7 @@ comunicação.
 
 Os padrões comportamentais influenciam como estados e comportamentos fluem
 por um sistema. Otimizando como os estados e comportamentos são transferidos
-e modificados, você pode simplificar, otimizar e aumentar a mantenibilidade
+e modificados, você pode simplificar, otimizar e aumentar a manutenibilidade
 da sua aplicação.
 
 ## Padrão Command
@@ -75,6 +75,27 @@ alterar o código da aplicação.
 * Muitas classes relacionadas diferem entre si apenas em seus comportamentos.
 * Você precisa de diferentes variações de um algoritmo.
 * Um algoritmo usa dados desconhecidos pelos clientes.
+
+## Padrão Template Method
+
+O padrão Template Method fornece um método que permite às subclasses
+sobrescreverem partes do método sem reescrevê-lo. Ele define o esqueleto de um
+algoritmo em uma operação, delegando algumas etapas às subclasses. O Template
+Method permite que as subclasses redefinam certas etapas de um algoritmo sem
+alterar a estrutura do algoritmo.
+
+<div style="text-align:center"><img src="template_method.png" width=300></div>
+
+### Benefícios do Padrão Template Method
+
+* Técnica fundamental para reutilização de código.
+
+### Quando Usar o Padrão Template Method
+
+* Você quer implementar as partes de um algoritmo que não variam uma única vez
+e usar subclasses para implementar o comportamento que varia.
+* Quando comportamentos comuns entre classes deveriam ser fatorados e colocados
+em uma classe em comum para evitar código duplicado.
 
 > Disponível em:
 [https://www.gofpatterns.com/behavioral/index.php](https://www.gofpatterns.com/behavioral/index.php) (tradução livre)

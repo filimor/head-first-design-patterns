@@ -74,5 +74,26 @@ application.
 * You need different variants of an algorithm.
 * An algorithm uses data unknown to clients.
 
+## Template Method Pattern
+
+The Template Method pattern provides a method that allows subclasses to override
+parts of the method without rewriting it. Define the skeleton of an algorithm in
+an operation, deferring some steps to subclasses. Template method lets
+subclasses redefine certain steps of an algorithm without changing the structure
+of the algorithm.
+
+<div style="text-align:center"><img src="template_method.png" width=300></div>
+
+### Benefits of Template Method Pattern
+
+* Fundamental technique for reusing code.
+
+### When to Use Template Method Pattern
+
+* You want to implement the invariant parts of an algorithm once and use
+subclasses to implement the behavior that can vary.
+* When common behavior among subclasses should be factored and localized in a
+common class to avoid code duplication.
+
 > Available at:
 [https://www.gofpatterns.com/behavioral/index.php](https://www.gofpatterns.com/behavioral/index.php)

@@ -2,7 +2,7 @@
 
 namespace Facade
 {
-    public class HomeTheaterTestDrive
+    public static class HomeTheaterTestDrive
     {
         private static void Main()
         {
